@@ -1,0 +1,47 @@
+body {
+	margin : 0;
+	font-family : consolas;
+	font-size : 2em;
+	background-color : #333;
+	color : #fff;
+}
+
+
+div#container {
+	padding : 1em;
+}
+
+span.default {
+	color : #fff;
+}
+
+span.correct {
+	color : #90e0ef;
+}
+
+
+span.incorrect {
+	color : red;
+}
+
+
+
+footer {
+	position : fixed;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	height : 50px;
+	width : 100%;
+	font-size : 20px;
+	bottom : 0;
+	background-color : #444;
+	border-color : #666;
+	border-style : solid;
+	border-width : 2px 0px 0px 0px;
+}
+
+
+span#cps {
+	margin-left : 20px;
+}

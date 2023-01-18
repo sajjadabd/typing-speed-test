@@ -1,0 +1,27 @@
+@font-face {
+	font-family : vazircode;
+	src : url(./fonts/Vazir-Code-Hack.ttf);
+}
+
+body {
+	padding : 1em;
+	font-family : vazircode;
+	font-size : 2em;
+	background-color : #333;
+	color : white;
+}
+
+
+span.default {
+	color : white;
+}
+
+span.correct {
+	color : cyan;
+}
+
+
+span.incorrect {
+	color : red;
+}
+
